@@ -226,4 +226,8 @@
     <string name="wifi_tether_client_list_title">Client List</string>
     <string name="wifi_tether_client_list_summary">Manage clients connected to hotspot</string>
 
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+
 </resources>
