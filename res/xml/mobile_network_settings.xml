@@ -134,6 +134,12 @@
             android:persistent="true"
             settings:controller="com.android.settings.network.telephony.Enabled5GPreferenceController"/>
 
+        <com.conquer.settings.preference.SystemSettingSwitchPreference
+            android:key="volte_icon"
+            android:title="@string/volte_icon_title"
+            android:summary="@string/volte_icon_summary"
+            android:defaultValue="true"/>
+
         <SwitchPreference
             android:key="contact_discovery_opt_in"
             android:title="@string/contact_discovery_opt_in_title"
