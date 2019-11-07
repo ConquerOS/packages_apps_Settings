@@ -23,4 +23,8 @@
     <string name="caf_tag_title">CAF Revision Tag</string>
     <string name="caf_tag_default">Unknown</string>
     <string name="keywords_conqueros_version">ConquerOS version, conquer, caf, caf tag</string>
+
+     <!-- Global Actions -->
+    <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
+    <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
 </resources>
