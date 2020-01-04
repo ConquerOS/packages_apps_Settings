@@ -34,7 +34,8 @@ android_library {
     aaptflags: ["--extra-packages com.conquer.settings"],
 
     resource_dirs: ["res",
-                    "Features/res"
+                    "Features/res",
+                    "TouchGestures/res"
     ],
 
     static_libs: [
