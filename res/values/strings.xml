@@ -13686,4 +13686,6 @@
     <string name="nr_sa">SA</string>
     <string name="prefer_vonr_mode_title">Enable/Disable VoNR</string>
     <string name="prefer_vonr_mode_summary">Enable or disable VoNR</string>
+    <!-- Min refresh rate -->
+    <string name="min_refresh_rate_title">Minimum refresh rate</string>
 </resources>
