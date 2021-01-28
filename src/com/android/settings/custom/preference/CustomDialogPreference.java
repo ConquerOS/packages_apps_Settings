@@ -26,6 +26,11 @@ import androidx.preference.DialogPreference;
 import android.util.AttributeSet;
 import android.view.View;
 
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.preference.PreferenceDialogFragmentCompat;
+import androidx.preference.DialogPreference;
+
 public class CustomDialogPreference<T extends DialogInterface> extends DialogPreference {
 
     private CustomPreferenceDialogFragment mFragment;
