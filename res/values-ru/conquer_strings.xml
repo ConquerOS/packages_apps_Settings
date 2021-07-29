@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2020 The ConquerOS Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+     
+          http://www.apache.org/licenses/LICENSE-2.0
+          
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- ConquerOS Version -->
+    <string name="conqueros_version_title">Вертсия ConquerOS</string>
+    <string name="conqueros_version_summary">Показать больше информации о ConquerOS</string>
+    <string name="conqueros_version_default">Неизвестно</string>
+    <string name="conqueros_build_number_title">Номер сборки ConquerOS</string>
+    <string name="conqueros_build_number_default">Неизвестно</string>
+    <string name="caf_tag_title">Тег редакции CAF</string>
+    <string name="caf_tag_default">Неизвестно</string>
+    <string name="keywords_conqueros_version">Версия ConquerOS, conquer, caf, caf тег</string>
+
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="tablet">Найдите датчик отпечатков пальцев на <xliff:g id="sensor_location">%1$s</xliff:g> вашего планшета.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="device">Найдите датчик отпечатков пальцев на <xliff:g id="sensor_location">%1$s</xliff:g> вашего устройства.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm" product="default">Найдите датчик отпечатков пальцев на <xliff:g id="sensor_location">%1$s</xliff:g> вашего смартфона.</string>
+
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">задней части</string>
+    <string name="security_settings_fingerprint_sensor_location_front">передней части</string>
+    <string name="security_settings_fingerprint_sensor_location_left">левой стороне</string>
+    <string name="security_settings_fingerprint_sensor_location_right">правой стороне</string>
+
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Проведите для снимка экрана</string>
+    <string name="three_finger_gesture_summary">Проведите тремя пальцами вниз, чтобы сделать снимок экрана</string>
+
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">Звук снимка экрана</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Параметры вращения</string>
+    <string name="display_rotation_summary">Выберите углы вращения</string>
+    <string name="display_rotation_disabled">Отключено</string>
+    <string name="display_rotation_unit">градусов</string>
+    <string name="display_rotation_category_title">Режимы вращения экрана</string>
+    <string name="display_rotation_0_title">0 градусов</string>
+    <string name="display_rotation_90_title">90 градусов</string>
+    <string name="display_rotation_180_title">180 градусов</string>
+    <string name="display_rotation_270_title">270 градусов</string>
+
+    <!-- Navbar length -->
+    <string name="navbar_length">Длина полоски жестов</string>
+    <string name="hidden_label">Скрыто</string>
+    <string name="long_label">Длинная</string>
+
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Информация о зарядке на экране блокировки</string>
+    <string name="lockscreen_battery_info_summary">Показывать ток зарядки, напряжение, мощность и температуру батареи на экране блокировки во время зарядки</string>
+
+    <!-- Global Actions -->
+    <string name="power_menu_customization_category_title">Настройка меню питания</string>
+    <string name="global_actions_title">Действия в меню питания</string>
+    <string name="global_actions_summary">Выберите, что показывать при нажатии кнопки питания</string>
+    <string name="global_actions_power">Питание</string>
+    <string name="global_actions_restart">Перезагрузка</string>
+    <string name="global_actions_airplane">Режим \"В самолёте\"</string>
+    <string name="global_actions_settings">Настройки</string>
+    <string name="global_actions_lockdown">Блокировка</string>
+    <string name="global_actions_soundpanel">Панель звука</string>
+    <string name="global_actions_users">Пользователи</string>
+    <string name="global_actions_screenshot">Снимок экрана</string>
+    <string name="global_actions_screenrecord">Запись экрана</string>
+    <string name="global_actions_flashlight">Фонарик</string>
+    <string name="global_actions_emergency">Emergency</string>
+    <string name="global_actions_advanced_reboot_title">Включить расширенную перезагрузку</string>
+    <string name="global_actions_advanced_reboot_summary">При перезагрузке показывать опции для загрузчика и рекавери</string>
+    <string name="global_actions_max_columns_title">Максимальное количество отображаемых действий</string>
+    <string name="global_actions_max_columns_summary">Установите, сколько действий показывать, прежде чем перейти в дополнительное меню</string>
+
+    <!-- ConquerOS Features -->
+    <string name="features_dashboard_title">Дополнительные настройки</string>
+    <string name="features_dashboard_summary">Настройте дополнительные функции устройства</string>
+
+
+    <!-- Face Unlock -->
+    <string name="security_settings_face_settings_footer_custom">Фейсконтроль позволяет разблокировать устройство, глядя на него. Помните: \n\n● Ваше устройство может разблокироваться в любой момент, когда вы посмотрите на него. \n● Ваше устройство может быть разблокировано кем-то другим, если он поднесет его к вашему лицу, пока ваши глаза открыты. \n● Ваше устройство также может быть разблокировано кем-то, кто очень похож на вас, например, ребенком или идентичным братом или сестрой.</string>
+    <string name="security_settings_face_settings_remove_dialog_details_custom">Данные, записанные с помощью функции фейсконтроля, будут безвозвратно удалены. После удаления потребуется ввести PIN-код, графический ключ или пароль для разблокировки телефона.</string>
+    <string name="security_settings_face_unlock_redo_face_scan_summary">Удалить использующийся снимок лица и создать новый</string>
+    <string name="security_settings_face_unlock_redo_face_scan_title">Повторное сканирование лица</string>
+    <string name="security_dashboard_summary_face_and_fingerprint">Блокировка экрана, отпечаток пальца, фейсконтроль</string>
+    <string name="face_redo_confirm_btn">Повторить</string>
+    <string name="face_redo_warning_msg">Удалить использующийся снимок лица и создать новый?</string>
+
+    <!-- Per-app data restrictions -->
+   <string name="data_usage_app_restrict_all">Разрешить доступ к сети</string>
+    <string name="data_usage_app_restrict_all_summary">Включить использование сети</string>
+    <string name="data_usage_app_restrict_mobile">Мобильные данные</string>
+    <string name="data_usage_app_restrict_mobile_summary">Включить использование мобильных данных</string>
+    <string name="data_usage_app_restrict_vpn">Использование VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Отображать статистику использования VPN</string>
+    <string name="data_usage_app_restrict_wifi">Использование Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Отображать статистику использования Wi\u2011Fi</string>
+
+    <!-- App Lock -->
+    <string name="applock_title">Блокировка приложений</string>
+    <string name="applock_locked">Заблокировано</string>
+    <string name="applock_unlocked">Разблокировано</string>
+    <string name="applock_locked_apps">Заблокированные приложения</string>
+    <string name="applock_unlocked_apps">Разблокированные приложения</string>
+    <string name="applock_lock_after_title">Блокировка приложения после выхода из него</string>
+    <string name="applock_lock_after_instantly">Немедленно</string>
+    <string name="applock_lock_after_15_seconds">15 Секунд</string>
+    <string name="applock_lock_after_screen_off">Выключение экрана</string>
+    <string name="applock_lock_after_summary">Приложение будет заблокировано по истечении выбранного тайм-аута</string>
+    <string name="applock_lock_after_instantly_summary">Приложение будет заблокировано сразу после закрытия</string>
+    <string name="applock_lock_after_15_seconds_summary">Приложение будет заблокировано через 15 секунд после закрытия</string>
+    <string name="applock_lock_after_screen_off_summary">Приложение будет заблокировано при выключении экрана</string>
+    <string name="applock_notification_info">Вы можете показать/скрыть содержимое уведомления для каждого приложения, щелкнув значок уведомления, отображаемый в настройках каждого заблокированного приложения</string>
+    <string name="applock_show_notif">Показывать уведомления полностью</string>
+    <string name="applock_hide_notif">Скрыть содержимое уведомлений</string>
+    <string name="applock_setup">Настройка блокировки приложений</string>
+    <string name="applock_overlay_summary">Эта функция недоступна, так как приложение заблокировано</string>
+    <plurals name="applock_summary">
+        <item quantity="one">%d приложение заблокировано</item>
+        <item quantity="other">%d приложений заблокировано</item>
+    </plurals>
+    <string name="keywords_applock_settings">блокировка, блокировщик приложений, блокировка приложения, блокировка приложений</string>
+
+   <!--  Volume Panel Plugin   -->
+   <string name="volume_panel">Стиль панели громкости</string>
+   <string name="volume_panel_stock">Стандартная</string>
+   <string name="volume_panel_aosp">AOSP</string>
+   <string name="volume_panel_compact">Компактная</string>
+   <string name="volume_panel_oreo">Oreo</string>
+   <string name="volume_panel_tiled">Плиточная</string>
+
+    <!-- Volume button music control -->
+  <string name="volume_button_music_control_title">Управление музыкой</string>
+  <string name="volume_button_music_control_summary">Долгое нажатие кнопок громкости переключает музыкальные треки, когда экран выключен</string>
+
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Подстраивать экран на основе времени суток и освещения, чтобы улучшить читаемость и снизить усталость глаз</string>
+    <string name="live_display_mode">Режим экрана</string>
+    <string name="live_display_color_temperature_title">Цветовая температура</string>
+    <string name="live_display_color_temperature_summary"><xliff:g id="day_temperature">%1$d</xliff:g>K днём и <xliff:g id="night_temperature">%2$d</xliff:g>K ночью</string>
+     <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">День</string>
+    <string name="live_display_night">Ночь</string>
+    <string name="live_display_outdoor_mode_title">Автоматический режим на улице</string>
+    <string name="live_display_outdoor_mode_summary">Увеличивать яркость и насыщенность при ярком свете</string>
+    <string name="live_display_low_power_title">Сократить потребление энергии</string>
+    <string name="live_display_low_power_summary">Подстраивать экран для низкого энергопотребления без ухудшения качества</string>
+    <string name="live_display_enhance_color_title">Улучшение цветопередачи</string>
+    <string name="live_display_enhance_color_summary">Улучшить сочность оттенков кожи, пейзажей и других изображений</string>
+    <string name="live_display_color_profile_title">Цветовой профиль</string>
+    <string name="live_display_color_profile_standard_title">Стандартный</string>
+    <string name="live_display_color_profile_standard_summary">Точная цветопередача и яркие белые тона</string>
+    <string name="live_display_color_profile_natural_title">Естественный</string>
+    <string name="live_display_color_profile_natural_summary">Натуральные цвета и оттенки кожи</string>
+    <string name="live_display_color_profile_dynamic_title">Динамический</string>
+    <string name="live_display_color_profile_dynamic_summary">Повышенная контрастность и яркость изображения</string>
+    <string name="live_display_color_profile_cinema_title">Кино</string>
+    <string name="live_display_color_profile_cinema_summary">Идеальная цветопередача для просмотра фильмов</string>
+    <string name="live_display_color_profile_astronomy_title">Астрономия</string>
+    <string name="live_display_color_profile_astronomy_summary">Глубокий красный для сохранения видимости ночью</string>
+    <string name="live_display_color_profile_photography_title">Фотография</string>
+    <string name="live_display_color_profile_photography_summary">Идеальная цветопередача фотографий</string>
+    <string name="live_display_color_profile_basic_title">Базовый</string>
+    <string name="live_display_color_profile_basic_summary">Использовать некалиброванный дисплей</string>
+    <string name="live_display_color_profile_adaptive_title">Адаптивный</string>
+    <string name="live_display_color_profile_adaptive_summary">Цвета адаптируются к окружающим условиям</string>
+    <string name="live_display_color_profile_reading_title">Чтение</string>
+    <string name="live_display_color_profile_reading_summary">Более теплые цвета для меньшей нагрузки на глаза</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Цвета соответствуют цветовому пространству sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">Цвета соответствуют цветовому пространству DCI-P3</string>
+    <string name="live_display_reading_mode_title">Режим чтения</string>
+    <string name="live_display_reading_mode_summary">Режим градаций серого для длительного чтения</string>
+    <string name="color_calibration_title">Калибровка цветов</string>
+    <string name="color_calibration_summary">Калибровка цветов экрана</string>
+    <string name="color_red_title">Красный</string>
+    <string name="color_green_title">Зеленый</string>
+    <string name="color_blue_title">Синий</string>
+
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Регулировка изображения</string>
+    <string name="picture_adjustment_summary">Регулировка оттенока, насыщенности, интенсивности и контраста</string>
+    <string name="adj_hue_title">Оттенок</string>
+    <string name="adj_saturation_title">Насыщенность</string>
+    <string name="adj_intensity_title">Интенсивность</string>
+    <string name="adj_contrast_title">Контраст</string>
+
+    <!-- Refresh rate -->
+    <string name="min_refresh_rate_title">Минимальная частота обновления</string>
+    <string name="max_refresh_rate_title">Максимальная частота обновления</string>
+    <string name="battery_saver_refresh_rate_title">Уменьшить частоту обновления</string>
+    <string name="battery_saver_refresh_rate_summary">Используйте 60 Гц в качестве максимальной частоты обновления для экономии энергии при включенной функции энергосбережения.</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="power_button_torch_title">Быстрый фонарик</string>
+    <string name="power_button_torch_summary">Когда экран выключен, долгое нажатие кнопки питания включит фонарик.</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Сброс статистики</string>
+    <string name="battery_stats_message">Это сбросит статистику истории батареи. Желаете ли вы продолжить?</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Связать громкость звонков и уведомлений</string>
+
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Разрешить клиентам точки доступа использовать VPN-подключения этого устройства для восходящего подключения</string>
+</resources>
