@@ -15,7 +15,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- ConquerOS Version -->
-    <string name="conqueros_version_title">Вертсия ConquerOS</string>
+    <string name="conqueros_version_title">Версия ConquerOS</string>
     <string name="conqueros_version_summary">Показать больше информации о ConquerOS</string>
     <string name="conqueros_version_default">Неизвестно</string>
     <string name="conqueros_build_number_title">Номер сборки ConquerOS</string>
