@@ -216,4 +216,14 @@
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
     <string name="tethering_allow_vpn_upstreams_summary">Разрешить клиентам точки доступа использовать VPN-подключения этого устройства для восходящего подключения</string>
+     
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Автоматическая разблокировка при вводе правильного PIN-кода/пароля</string>
+
+    <!-- Notification Media Options -->
+    <string name="media_category">Параметры мультимедиа уведомлений</string>
+    <string name="artwork_media_background_title">Обои мультимедиа фоном уведомлений</string>
+    <string name="artwork_media_background_summary">Установить обои мультимедиа в качестве фона для уведомлений</string>
+     
 </resources>
