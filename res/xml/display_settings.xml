@@ -156,4 +156,12 @@
             android:title="@string/display_vr_pref_title"
             android:fragment="com.android.settings.display.VrDisplayPreferencePicker"/>
     </PreferenceCategory>
+
+        <PreferenceScreen
+            android:key="monet_engine"
+            android:icon="@drawable/ic_themes"
+            android:title="@string/monet_title"
+            android:summary="@string/monet_summary"
+            android:fragment="com.conquer.settings.fragments.ui.MonetSettings" />
+
 </PreferenceScreen>
