@@ -1,0 +1,5 @@
+java_import {
+    name: "powerusagefeaturegoogle",
+    jars: ["powerusagefeaturegoogle.jar"],
+    sdk_version: "current",
+}

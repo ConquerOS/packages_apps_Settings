@@ -72,3 +72,13 @@
     *;
 }
 
+-keep class com.conquer.android.settings.** { *; }
+-keep class vendor.** { *; }
+-keep class com.android.wsuinterface.** { *; }
+
+# For reflection
+-keepattributes InnerClasses
+-keep class **.R
+-keep class **.R$* {
+    <fields>;
+}
