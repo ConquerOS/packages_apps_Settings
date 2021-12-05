@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.conquer.settings.preferences.colorpicker;
+package com.conquer.settings.preference.colorpicker;
 
 import android.content.Context;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.provider.Settings;
 
-import com.conquer.settings.preferences.SystemSettingsStore;
+import com.conquer.settings.preference.SystemSettingsStore;
 
 public class SystemSettingColorPickerPreference extends ColorPickerPreference {
 

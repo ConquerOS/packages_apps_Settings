@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-package com.conquer.settings.preferences.colorpicker;
+package com.conquer.settings.preference.colorpicker;
 
 import android.content.Context;
 import android.content.res.TypedArray;
