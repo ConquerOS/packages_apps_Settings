@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 The ConquerOS Project
+ * Copyright (C) 2020 The conquerOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -22,13 +22,13 @@ import android.os.SystemProperties;
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
 
-public class ConquerOSVersionPreferenceController extends BasePreferenceController {
+public class conquerOSBuildNumberPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "ConquerOSVersion";
+    private static final String TAG = "conquerOSBuildNumber";
 
-    private static final String KEY_CONQUEEROS_VERSION = "ro.conquer.version";
+    private static final String KEY_CONQUER_BUILD_NUMBER = "ro.conquer.build.number";
 
-    public ConquerOSVersionPreferenceController(Context context, String key) {
+    public conquerOSBuildNumberPreferenceController(Context context, String key) {
         super(context, key);
     }
 
@@ -39,7 +39,7 @@ public class ConquerOSVersionPreferenceController extends BasePreferenceControll
 
     @Override
     public CharSequence getSummary() {
-        return SystemProperties.get(KEY_CONQUEEROS_VERSION,
-                mContext.getString(R.string.conqueros_version_default));
+        return SystemProperties.get(KEY_CONQUER_BUILD_NUMBER,
+                mContext.getString(R.string.conqueros_build_number_default));
     }
 }

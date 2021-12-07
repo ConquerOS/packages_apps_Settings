@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 The ConquerOS Project
+ * Copyright (C) 2020 The conquerOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -30,7 +30,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @SearchIndexable
-public class ConquerOSVersionSettings extends DashboardFragment {
+public class conquerOSVersionSettings extends DashboardFragment {
 
     @Override
     protected int getPreferenceScreenResId() {
@@ -39,7 +39,7 @@ public class ConquerOSVersionSettings extends DashboardFragment {
 
     @Override
     protected String getLogTag() {
-        return "ConquerOSVersionSettings";
+        return "conquerOSVersionSettings";
     }
 
     @Override

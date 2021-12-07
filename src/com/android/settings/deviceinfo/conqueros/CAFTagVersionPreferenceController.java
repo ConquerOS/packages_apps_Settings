@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 The ConquerOS Project
+ * Copyright (C) 2020 The conquerOS Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ import com.android.settings.core.BasePreferenceController;
 
 public class CAFTagVersionPreferenceController extends BasePreferenceController {
 
-    private static final String TAG = "ConquerOSCAFTag";
+    private static final String TAG = "conquerOSCAFTag";
 
     private static final String KEY_CAF_TAG = "ro.caf.revision.tag";
 

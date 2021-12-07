@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  Copyright (C) 2019-2021 The ConquerOS Project
+  Copyright (C) 2019-2021 The conquerOS Project
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -20,19 +20,19 @@
     android:title="@string/conqueros_version_title"
     settings:keywords="@string/keywords_conqueros_version">
 
-    <!-- ConquerOS logo -->
+    <!-- conquerOS logo -->
     <PreferenceScreen
         android:key="conquer_logo"
         android:enabled="false"
         android:layout="@layout/conquer_logo" />
 
-    <!-- ConquerOS version -->
+    <!-- conquerOS version -->
     <Preference
         android:key="conqueros_version"
         android:title="@string/conqueros_version_title"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.conqueros.ConquerOSVersionPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.conqueros.conquerOSVersionPreferenceController"/>
 
     <Preference
         android:key="caf_tag"
@@ -46,6 +46,6 @@
         android:title="@string/conqueros_build_number_title"
         android:summary="@string/summary_placeholder"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.conqueros.ConquerOSBuildNumberPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.conqueros.conquerOSBuildNumberPreferenceController"/>
 
 </PreferenceScreen>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2019-2021 The ConquerOS Project
+<!-- Copyright (C) 2019-2021 The conquerOS Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,15 +14,15 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <!-- ConquerOS Version -->
-    <string name="conqueros_version_title">ConquerOS version</string>
-    <string name="conqueros_version_summary">Show more info about ConquerOS</string>
+    <!-- conquerOS Version -->
+    <string name="conqueros_version_title">conquerOS version</string>
+    <string name="conqueros_version_summary">Show more info about conquerOS</string>
     <string name="conqueros_version_default">Unknown</string>
-    <string name="conqueros_build_number_title">ConquerOS build number</string>
+    <string name="conqueros_build_number_title">conquerOS build number</string>
     <string name="conqueros_build_number_default">Unknown</string>
     <string name="caf_tag_title">CAF Revision Tag</string>
     <string name="caf_tag_default">Unknown</string>
-    <string name="keywords_conqueros_version">ConquerOS version, conquer, caf, caf tag</string>
+    <string name="keywords_conqueros_version">conquerOS version, conquer, caf, caf tag</string>
 
     <!-- Support -->
     <string name="ok">OK</string>
