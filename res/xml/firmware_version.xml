@@ -21,6 +21,14 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- conquerOS version -->
+    <Preference
+        android:key="conqueros_version"
+        android:title="@string/conqueros_version_title"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.conqueros.conquerOSVersionPreferenceController"/>
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
@@ -63,13 +71,12 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.KernelVersionPreferenceController"/>
 
-    <!-- Build -->
+    <!-- CAF/CLO Revisiin Tag -->
     <Preference
-        android:key="os_build_number"
-        android:title="@string/build_number"
+        android:key="clo_tag"
+        android:title="@string/clo_tag_title"
         android:summary="@string/summary_placeholder"
-        android:selectable="false"
         settings:enableCopying="true"
-        settings:controller="com.android.settings.deviceinfo.firmwareversion.SimpleBuildNumberPreferenceController"/>
+        settings:controller="com.android.settings.deviceinfo.conqueros.CAFTagVersionPreferenceController"/>
 
 </PreferenceScreen>
